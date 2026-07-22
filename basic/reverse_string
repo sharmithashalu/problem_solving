@@ -1,0 +1,11 @@
+x = input("enter a name: ")
+reverse = "" 
+for  i in x:
+     reverse = i + reverse
+print(reverse)
+
+x = input("Enter a name: ")
+reverse = ""
+for i in x:
+    reverse = i + reverse
+print(reverse)
