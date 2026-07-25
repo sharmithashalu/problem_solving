@@ -1,7 +1,7 @@
-name = input("Enter a string: ")
+'''name = input("Enter a string: ")
 
 for i in range(len(name) - 1, -1, -1):
-    print(name[i], end="") 
+    print(name[i], end="") '''
 '''x = input("enter a name : ")
 for i in range(len(x)):
     print(x[i], end="")'''
@@ -13,3 +13,15 @@ print(len(x))'''
 
 for i in range(len(x)):
     print(i, x[i],end="")'''
+
+name = input("Enter a string: ")
+
+upper = 0
+lower = 0
+
+for ch in name:
+    # uppercase check pannu
+    # lowercase check pannu
+
+    print("Uppercase =", upper)
+    print("Lowercase =", lower)
