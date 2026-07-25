@@ -1,9 +1,7 @@
-'''x = input("enter a name: ")
-reverse = "" 
-for  i in x:
-     reverse = i + reverse
-print(reverse)'''
+name = input("Enter a string: ")
 
+for i in range(len(name) - 1, -1, -1):
+    print(name[i], end="") 
 '''x = input("enter a name : ")
 for i in range(len(x)):
     print(x[i], end="")'''
@@ -11,7 +9,7 @@ for i in range(len(x)):
 '''x = input("enter a name : ")
 print(len(x))'''
 
-x = "python"
+'''x = "python"
 
 for i in range(len(x)):
-    print(i, x[i],end="")
+    print(i, x[i],end="")'''
