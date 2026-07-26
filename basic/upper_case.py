@@ -1,2 +1,6 @@
-x = input("enter a name:")
-print(x.upper())
+'''x = input("enter a name:")
+print(x.upper())'''
+
+
+y = input("enter name:")
+print(y.lower())
