@@ -2,5 +2,8 @@
 print(x.upper())'''
 
 
-y = input("enter name:")
-print(y.lower())
+'''y = input("enter name:")
+print(y.lower())'''
+
+x = input("enter a name :")
+print(x.title())
