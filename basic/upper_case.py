@@ -8,5 +8,8 @@ print(y.lower())'''
 '''x = input("enter a name :")
 print(x.title())'''
 
-x  = input("enter a name : ")
-print(x.capitalize())
+'''x  = input("enter a name : ")
+print(x.swapcase())'''
+
+x = input('enter a name : ')
+print(x)
