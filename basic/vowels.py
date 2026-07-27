@@ -24,12 +24,13 @@ for char in text.lower():
 print(f"Total number of vowels: {vowel_count}")'''
 
 
-x = input("enter a sentence :")
-vowels = "aeiouAEIOU"
-count= 0
-for i in x:
-    if i in vowels:
+sentence = input("Enter a sentence: ")
+
+count = 0
+
+for i in sentence:
+    if i in "aeiouAEIOU":
         count += 1
-        print("volume count:{count}")
-        
+
+print(f"Vowel count: {count}")    
         
