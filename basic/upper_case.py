@@ -11,5 +11,11 @@ print(x.title())'''
 '''x  = input("enter a name : ")
 print(x.swapcase())'''
 
-x = input('enter a name : ')
-print(x)
+'''x = input('enter a name : ')
+print(x)'''
+
+x = int(input())
+if x %  2 == 0:
+    print("even  number")
+else:
+    print("odd number")
