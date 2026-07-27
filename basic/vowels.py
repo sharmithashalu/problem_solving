@@ -14,20 +14,22 @@ for i in name:
     if i in "aeiouAEIOU":
         count = count + 1
         print("vowels =", count)'''
-# Take input from the user
-text = input("Enter a sentence or word: ")
 
-# Define a collection of vowels
+'''text = input("Enter a sentence or word: ")
 vowels = "aeiou"
-
-# Initialize a counter variable
 vowel_count = 0
-
-# Loop through each character in the string
 for char in text.lower():
     if char in vowels:
         vowel_count += 1
+print(f"Total number of vowels: {vowel_count}")'''
 
-# Display the result
-print(f"Total number of vowels: {vowel_count}")
 
+x = input("enter a sentence :")
+vowels = "aeiouAEIOU"
+count= 0
+for i in x:
+    if i in vowels:
+        count += 1
+        print("volume count:{count}")
+        
+        
