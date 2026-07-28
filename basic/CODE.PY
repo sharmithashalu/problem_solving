@@ -23,7 +23,15 @@ print(ch)'''
     print(i)
 
 print("Final:", i)'''
-for i in [10, 20, 30]:
+'''for i in [10, 20, 30]:
     pass
 
-print(i)
+print(i)'''
+x = input("Enter a string: ")
+
+count = 0
+
+for ch in x:
+    
+
+    print("Digits:", count)
