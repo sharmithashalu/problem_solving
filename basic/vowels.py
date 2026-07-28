@@ -33,13 +33,19 @@ for i in sentence:
 
 print(f"Vowel count: {count}") '''
 
-sentence = input("Enter a sentence: ")
+'''sentence = input("Enter a sentence: ")
 count = 0
 
 for i in sentence:
     if i in "aeiouAEIOU":
         count += 1
 
-print(f"Vowel count: {count}")    
-           
+print(f"Vowel count: {count}") '''
+
+name = input("enter a namae :")
+count = 0
+for i in name:
+    if i in "aeiouAEIOU" :
+        count = count + 1
+print(f"vowels : {count}")
         
