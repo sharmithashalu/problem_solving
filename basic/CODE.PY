@@ -19,7 +19,11 @@ for ch in x:
 
 print(ch)'''
 
-for i in [5, 10, 15]:
+'''for i in [5, 10, 15]:
     print(i)
 
-print("Final:", i)
+print("Final:", i)'''
+for i in [10, 20, 30]:
+    pass
+
+print(i)
