@@ -11,3 +11,10 @@ for ch in x:
 
 print("Uppercase:", upper)
 print("Lowercase:", lower)
+
+x = "CAT"
+
+for ch in x:
+    print(ch)
+
+print(ch)
