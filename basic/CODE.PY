@@ -1,4 +1,4 @@
-x = input("Enter a name: ")
+'''x = input("Enter a name: ")
 
 upper = 0
 lower = 0
@@ -10,7 +10,7 @@ for ch in x:
         lower += 1
 
 print("Uppercase:", upper)
-print("Lowercase:", lower)
+print("Lowercase:", lower)'''
 
 x = "CAT"
 
