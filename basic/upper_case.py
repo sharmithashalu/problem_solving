@@ -21,10 +21,24 @@ else:
     print("odd number")'''
 
 
-x = input("enter a name :")
+'''x = input("enter a name :")
 for ch in x:
     print(ch)
     if "A" <= ch <= "Z":
      print("upper case")
     elif "a" <= ch <= "z":
-       print("lower case")
+       print("lower case")'''
+
+x = input("Enter a name: ")
+
+upper = 0
+lower = 0
+
+for ch in x:
+    if "A" <= ch <= "Z":
+        upper += 1
+    elif "a" <= ch <= "z":
+        lower += 1
+
+print("Uppercase:", upper)
+print("Lowercase:", lower)
