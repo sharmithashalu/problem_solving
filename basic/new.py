@@ -1,4 +1,4 @@
-a = int(input("Enter the value of a: "))
+'''a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 c = int(input("Enter the value of c: "))
 if a > b and a > c:
@@ -6,4 +6,12 @@ if a > b and a > c:
 elif b > a and b > c:
     print("b is greater than a and c")
 else:
-    print("c is greater than a and b")
+    print("c is greater than a and b")'''
+
+
+x = int(input())
+if x %2 == 0:
+  print("even")
+else:
+  print("odd")
+  
