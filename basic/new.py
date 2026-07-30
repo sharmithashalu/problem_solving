@@ -9,9 +9,8 @@ else:
     print("c is greater than a and b")'''
 
 
-x = int(input())
-if x %2 == 0:
-  print("even")
+x = int(input("enter a number : "))
+if x % 2 == 0:
+    print("even number")
 else:
-  print("odd")
-  
+    print("odd number")
