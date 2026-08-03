@@ -14,10 +14,23 @@ while x > 0 :
     x = x // 10
 print(sum)'''
 
-x  = int(input())
+'''x  = int(input())
 reverse = 0
 while x > 0:
     digit = x % 10
     rerverse = reverse * 10 + digit
     x = x // 10
-print(reverse)
+print(reverse)'''
+
+x = int(input("enter a number :"))
+largest = 0
+
+while x > 0:
+    digit = x % 10
+
+    if digit > largest:
+        largest = digit
+
+    x = x // 10
+
+print(largest)
