@@ -10,7 +10,8 @@ while x > 0:
     x = x // 10
 
 print(largest)'''
-x = int(input("enter a number :"))
+
+'''x = int(input("enter a number :"))
 smallest = x % 10
 
 while x > 0:
@@ -21,4 +22,13 @@ while x > 0:
 
     x = x // 10
 
+print(smallest)'''
+
+x = int (input("enter a number :"))
+smallest = x % 10
+while x > 0 :
+    digit = x % 10
+    if digit < smallest :
+        smallest = digit
+    x = x // 10
 print(smallest)
