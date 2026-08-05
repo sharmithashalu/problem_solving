@@ -20,11 +20,20 @@ while x > 0 :
     x = x // 10
 print("count of zero =",count)'''
 
-n = int(input("enter a number :"))
+'''n = int(input("enter a number :"))
 r = 0
 while n > 0  :
     s = n % 10
     if s == 0 :
         r += 1
     n = n // 10
-print("count of zero =", r)
+print("count of zero =", r)'''
+
+x = int(input("enter a number :"))
+count = 0
+while x > 0 :
+    digit = x % 10
+    count = count + digit
+    x = x // 10
+print("sum of digit=", count)
+    
