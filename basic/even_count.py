@@ -11,11 +11,20 @@ while x > 0 :
 print("even count =", even)
 print("odd count =", odd)'''
 
-x = int(input("enter a number:"))
+'''x = int(input("enter a number:"))
 count = 0
 while x > 0 :
     y = x % 10
     if y == 0 :
         count += 1
     x = x // 10
-print("count of zero =",count)
+print("count of zero =",count)'''
+
+n = int(input("enter a number :"))
+r = 0
+while n > 0  :
+    s = n % 10
+    if s == 0 :
+        r += 1
+    n = n // 10
+print("count of zero =", r)
