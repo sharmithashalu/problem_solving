@@ -29,11 +29,19 @@ while n > 0  :
     n = n // 10
 print("count of zero =", r)'''
 
-x = int(input("enter a number :"))
+'''x = int(input("enter a number :"))
 count = 0
 while x > 0 :
     digit = x % 10
     count = count + digit
     x = x // 10
-print("sum of digit=", count)
-    
+print("sum of digit=", count)'''
+
+
+x = int(input("enter a number :"))
+product = 1
+while x > 0 :
+    digit = x % 10
+    product = product * digit
+    x = x // 10
+print("product of digit =", product)
