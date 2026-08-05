@@ -38,10 +38,24 @@ while x > 0 :
 print("sum of digit=", count)'''
 
 
-x = int(input("enter a number :"))
+'''x = int(input("enter a number :"))
 product = 1
 while x > 0 :
     digit = x % 10
     product = product * digit
     x = x // 10
-print("product of digit =", product)
+print("product of digit =", product)'''
+
+x = int(input("Enter a number: "))
+
+smallest = x % 10
+
+while x > 0:
+    digit = x % 10
+
+    if digit < smallest:
+        smallest = digit
+
+    x = x // 10
+
+print("Smallest digit =", smallest)
