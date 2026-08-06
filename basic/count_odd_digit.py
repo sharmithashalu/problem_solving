@@ -18,10 +18,17 @@ while x > 0:
     x = x // 10
 print("Digits =", count)'''
 
-x = int(input("Enter a number: "))
+'''x = int(input("Enter a number: "))
 reverse = 0
 while x > 0:
     digit = x % 10
     reverse = reverse * 10 + digit
     x = x // 10 
-print("Reverse =", reverse)
+print("Reverse =", reverse)'''
+
+original = 121
+reverse = 121
+if original == reverse :
+    print("palindrome")
+else :
+    print("not a palindrome")
