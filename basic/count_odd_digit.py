@@ -26,9 +26,24 @@ while x > 0:
     x = x // 10 
 print("Reverse =", reverse)'''
 
-original = 121
+'''original = 121
 reverse = 121
 if original == reverse :
     print("palindrome")
 else :
-    print("not a palindrome")
+    print("not a palindrome")'''
+
+x = int(input("Enter a number: "))
+
+original = x
+sum = 0
+
+while x > 0:
+    digit = x % 10
+    sum = sum + (digit * digit * digit)
+    x = x // 10
+
+if original == sum:
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
