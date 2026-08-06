@@ -1,4 +1,4 @@
-x = int(input("enter a number :"))
+'''x = int(input("enter a number :"))
 even = 0
 odd = 0
 while x > 0 :
@@ -9,4 +9,14 @@ while x > 0 :
         odd += 1
     x = x // 10
 print("even count = ", even)
-print("odd count = ", odd)
+print("odd count = ", odd)'''
+
+x = int(input("Enter a number: "))
+
+count = 0
+
+while x > 0:
+    count += 1
+    x = x // 10
+   
+print("Digits =", count)
