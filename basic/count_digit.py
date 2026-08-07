@@ -13,13 +13,17 @@ while x > 0 :
     x = x // 10
 print("reverse of number :",reverse)'''
 
-x = int(input("enter a number :"))
+'''x = int(input("enter a number :"))
 even = 0
 while x > 0 :
     digit = x % 10
     if digit % 2 == 0 :
         even += 1
     x = x // 10
-print(" even digits :", even)
+print(" even digits :", even)'''
+
+n = 5
+for i in range(1, n + 1):
+    print("*" * i)
 
   
