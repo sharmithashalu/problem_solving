@@ -27,6 +27,9 @@ for i in x :
         count += 1
 print("vowels :",count)'''
 
-x = int(input("enter a number :"))
+'''x = int(input("enter a number :"))
 for i in range(x):
-    print(i, end = " ")
+    print(i, end = " ")'''
+x = int(input("enter a number :"))
+for i in range(1,20):
+    print(x)
