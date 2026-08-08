@@ -11,11 +11,18 @@ else :
     print("not palindrom")'''
 
 
-x = input("enter a number :")
+'''x = input("enter a number :")
 count = 0
 for i in x:
     count += 1
 if count == 1:
     print("palindrom")
 else:
-    print("not palindrom")
+    print("not palindrom")'''
+
+x = (input("enter a number :"))
+count  = 0
+for i in x :
+    if i in "aeiouAEIOU" :
+        count = count + 1
+print("vowels :",count)
