@@ -1,4 +1,4 @@
-x = int(input("enter a number :"))
+'''x = int(input("enter a number :"))
 original = x
 reverse = 0
 while x > 0 :
@@ -8,4 +8,14 @@ while x > 0 :
 if original == reverse :
     print("palindrom")
 else :
+    print("not palindrom")'''
+
+
+x = input("enter a number :")
+count = 0
+for i in x:
+    count += 1
+if count == 1:
+    print("palindrom")
+else:
     print("not palindrom")
