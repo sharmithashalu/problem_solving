@@ -20,9 +20,13 @@ if count == 1:
 else:
     print("not palindrom")'''
 
-x = (input("enter a number :"))
+'''x = (input("enter a number :"))
 count  = 0
 for i in x :
     if i in "aeiouAEIOU" :
-        count = count + 1
-print("vowels :",count)
+        count += 1
+print("vowels :",count)'''
+
+x = int(input("enter a number :"))
+for i in range(x):
+    print(i, end = " ")
